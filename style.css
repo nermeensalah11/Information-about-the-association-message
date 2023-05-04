@@ -1,0 +1,112 @@
+
+body {
+  background-image: url('digital.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+background-size: cover;
+}
+
+h1{
+    color: lightblue;
+    font-size: 50px;
+    height: 55px;
+    width: 500px;
+    background: white;
+    border-width: 5px;
+    border-color: lightgray;
+    border-style: solid;
+    text-align: center;
+    margin-top: 40px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+ }
+ h2{
+    color:lightblue;
+    font-size: 28px;
+padding: 7px;
+ }
+ p{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ h3{
+    color: lightblue;
+    font-size: 22px;
+    padding-left: 5px;
+ }
+ input[ type="text"]{
+background: lightblue;
+color: blue;
+ }
+ input[ type="email"]{
+    background: lightblue;
+    color: blue;
+     }
+     input[ type="submit"]{
+        background: blue;
+        color: rgb(8, 60, 156);
+         }
+         input[ type="reset"]{
+            background: blue;
+            color: rgb(6, 66, 155);
+             }
+             textarea{
+                background: rgb(255, 255, 255);
+                color: blue;
+                font-size: 20px;
+                 }
+div{
+    color: rgb(7, 84, 146);
+    font-size: 18px;
+}
+select{
+    color: blue;
+    font-size: 15px;
+}
+.about-img__container {
+   position: relative;
+ }
+ .about-img__container::before {
+   content: "";
+   position: absolute;
+   top: -24px;
+   top: -1.5rem;
+   left: -27.2px;
+   left: -1.7rem;
+   width: 100%;
+   height: 100%;
+   outline: 8px solid rgb(249, 228, 148);
+   outline: 0.5rem solid rgb(249, 228, 148);
+   z-index: -1;
+   -webkit-transition: all 1s linear;
+   transition: all 1s linear;
+ }
+ .about-img__container:hover:before {
+   top: 0;
+   left: 0;
+ }
+
+ .max-height {
+   min-height: calc(100vh - 76px);
+   background: -webkit-gradient(
+       linear,
+       left top,
+       left bottom,
+       from(rgb(6, 107, 173)),
+       to(rgba(6, 113, 201, 0.5))
+     ),
+     url("../img/1");
+   background: linear-gradient(
+       rgba(156, 150, 126, 0.5),
+       rgba(129, 100, 100, 0.5)
+     ),
+     url("../img/1");
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   position: relative;
+ }
